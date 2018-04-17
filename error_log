@@ -1,0 +1,8 @@
+[05-Nov-2016 11:05:17 UTC] PHP Warning:  include_once(bottom_tile_services.php): failed to open stream: No such file or directory in /home/maptekus/public_html/ku_koos/index.php on line 279
+[05-Nov-2016 11:05:17 UTC] PHP Warning:  include_once(): Failed opening 'bottom_tile_services.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/maptekus/public_html/ku_koos/index.php on line 279
+[05-Nov-2016 11:05:26 UTC] PHP Warning:  include_once(bottom_tile_services.php): failed to open stream: No such file or directory in /home/maptekus/public_html/ku_koos/index.php on line 279
+[05-Nov-2016 11:05:26 UTC] PHP Warning:  include_once(): Failed opening 'bottom_tile_services.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/maptekus/public_html/ku_koos/index.php on line 279
+[05-Nov-2016 11:06:35 UTC] PHP Warning:  include_once(bottom_tile_services.php): failed to open stream: No such file or directory in /home/maptekus/public_html/ku_koos/index.php on line 279
+[05-Nov-2016 11:06:35 UTC] PHP Warning:  include_once(): Failed opening 'bottom_tile_services.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/maptekus/public_html/ku_koos/index.php on line 279
+[26-Nov-2016 14:34:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/maptekin/invent.maptek.in/ku_koos/index.php on line 74
+[26-Nov-2016 17:11:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/maptekin/invent.maptek.in/ku_koos/index.php on line 74

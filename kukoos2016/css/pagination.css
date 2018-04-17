@@ -1,0 +1,465 @@
+#loading{
+                width: 100%;
+                position: absolute;
+                top: 100px;
+                left: 100px;
+				margin-top:200px;
+            }
+            #container .pagination ul li.inactive,
+            #container .pagination ul li.inactive:hover{
+                background-color:#ededed;
+                color:#bababa;
+                border:1px solid #bababa;
+                cursor: default;
+            }
+            #container .data ul li{
+                list-style: none;
+                font-family: verdana;
+                margin: 5px 0 5px 0;
+                color: #000;
+                font-size: 13px;
+            }
+
+            #container .pagination{
+                width: 800px;
+                height: 25px;
+            }
+            #container .pagination ul li{
+                list-style: none;
+                float: left;
+                border: 1px solid #CC5160;
+                padding: 2px 6px 2px 6px;
+                margin: 0 3px 0 3px;
+                font-family: arial;
+                font-size: 14px;
+                color: #ffffff;
+                font-weight: bold;
+                background-color: #CCCCCC;
+            }
+            #container .pagination ul li:hover{
+                color: #fff;
+                background-color: #CC5160;
+                cursor: pointer;
+            }
+			
+			.total
+			{
+			float:right;font-family:arial;color:#999;
+			}
+			#container .pagination input[type="text"]{height:19px}
+.button{
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+.button {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F5F5F5;
+    background-image: -moz-linear-gradient(center top , #FFFFFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: #E6E6E6 #E6E6E6 #B3B3B3;
+    border-image: none;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 18px;
+    margin: -2px 2px 3px 4px;
+    padding: 2px 9px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+.button a {
+    color: #1F92FF;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 0 0 0 transparent;
+}
+.button a {
+    color: #0088CC;
+    text-decoration: none;
+}
+
+.button.active, .btn:active {
+    background-color: #E6E6E6;
+    background-image: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    outline: 0 none;
+}
+.button:hover {
+    background-color: #E6E6E6;
+    background-position: 0 -15px;
+    color: #333333;
+    text-decoration: none;
+    transition: background-position 0.1s linear 0s;
+}
+
+.button-danger {
+    background-color: #DA4F49;
+    background-image: -moz-linear-gradient(center top , #EE5F5B, #BD362F);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.button-danger:active, .button-danger.active {
+}
+.button-danger:hover, .button-danger:active, .button-danger.active, .button-danger.disabled, .button-danger[disabled] {
+    background-color: #BD362F;
+}
+.button-danger:hover, .button-danger:active, .button-danger.active, .button-danger.disabled, .button-danger[disabled] {
+    background-color: #BD362F;
+}
+.button-primary, .button-primary:hover, .button-warning, .button-warning:hover, .button-danger, .button-danger:hover, .button-success, .button-success:hover, .button-info, .button-info:hover, .button-inverse, .button-inverse:hover {
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}			
+.tableBox
+{
+    background-color: #FFFFFF;
+    width: 100%;
+    /*height: 100%;*/
+    margin: 0 auto 0px auto;
+    padding: 0px;
+    border: 1px solid #B3B3B3;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    behavior: url(border-radius.htc);
+}
+.gridview
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-radius: 5px 5px 5px 5px;
+    border: solid 1px #CCCCCC;
+    font-size: 11px;
+    font-weight: bold;
+    clear: both;
+    /*height: 100%;*/
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+.gridview td
+{
+    border: solid 1px #cccccc;
+    padding: 5px; /*background: #ebebeb;*/
+    font-weight: bold;
+    color: #7c7b7b;
+}
+.gridview td.pagination
+{
+    text-align: center;
+}
+
+.gridview td.pagination a
+{
+    margin: 0 25px;
+}
+
+.gridview td.pagination span
+{
+    margin: 0 25px;
+}
+.gridview th
+{
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    border: solid 1px #cccccc;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*.gridview th a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.gridview th a:hover
+{
+    color: #003300;
+    text-decoration: underline;
+}
+
+.gridview td a
+{
+    color: #003300;
+    text-decoration: none;
+    background-color: #dddddd;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.gridview td a:hover
+{
+    color: #ffffff;
+    text-decoration: underline;
+}*/
+.gridview .buttonGrid
+{
+    background: url('../images/button-bg.jpg') repeat-x left top #323232;
+    border: solid 1px #242424;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 10px;
+    height: 25px;
+    padding: 4px 18px 4px;
+    font-weight: normal;
+    border-radius: 8px;
+    vertical-align: middle;
+    line-height: 18px;
+}
+
+.gridview .buttonGrid:hover
+{
+    border: solid 1px #505050;
+    color: #999;
+}
+
+.gridview .gridViewHeader
+{
+    background-color: #512e65;
+    color: #FFFFFF;
+    text-align: center;
+	height:34px;
+}
+
+.gridview .gridViewRow
+{
+    background-color: #EBEBEB;
+    color: #000000;
+}
+
+.gridview .gridViewAltRow
+{
+    background-color: #F0F0F0;
+}
+
+.gridview .gridViewSelectedRow
+{
+    background-color: #FFCC00;
+    color: #666666;
+}
+
+/* Of course, this doesn't work with IE6. Works fine with Firefox, though. */
+.gridview tr.gridViewRow:hover td, .gridview tr.gridViewAltRow:hover td
+{
+    background-color: #CCCCCC;
+    color: #000000;
+	border: 1px solid #EDEDED;
+}
+
+.gridViewPager
+{
+    /*background-color: #B92C25;*/
+    text-align: left;
+    border: none;
+    font-weight: bold;
+}
+
+.gridview .gridViewPager td
+{
+    color: #7c7b7b;
+    border: none;
+    padding: 2px 3px 2px 2px;
+    background: #cccccc;
+}
+
+.gridview .gridViewPager td a
+{
+    color: #B92C25;
+    text-decoration: none;
+    background-color: #dddddd;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+.gridview .gridViewPager td a:hover
+{
+    color: #B92C25;
+    text-decoration: none;
+    background: #FCE36F;
+}
+
+/* The currently selected page number is rendered by ASP.NET in a span tag in the td. */
+.gridview tr.gridViewPager td span
+{
+    display: block;
+    cursor: text;
+    color: #B92C25;
+    text-decoration: none;
+    background-color: #FCE36F;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+
+.edituser{
+width:610px;
+height:auto;
+padding-top:15px;
+padding-left:10px;
+padding-right:10px;
+background:#F7F7F7;
+float:left;
+border:1px solid #D3D3D3;
+margin-left:10px;
+border-radius:5px;
+font-size:14px;
+color:#333333;
+}
+#content_left{
+width:200px;
+height:auto;
+float:left;
+margin:40px 0 0 10px;
+padding:10px 0 20px 25px;
+border:0px solid #330099;
+background: #F2F2F2;
+border-radius:15px;
+line-height:15px;
+}
+#content_right{
+width:960px;
+min-height:300px;
+height:auto;
+margin:0 27px 20px 13px;
+border:0px solid #006633 ;
+/*box-shadow:0 0 5px #000;*/
+float:left;
+padding-bottom:15px;}
+
+#images_data{
+border:solid 0px #FF6600; 
+width:975px; 
+height:auto; 
+margin:0 auto;
+}
+.pagination{
+float:left;
+ width:93%; 
+ height:22px; 
+ padding:7px; 
+ border:1px solid #E5E5E5; 
+ background:url(../images/text_bg.jpg);
+ margin-top:10px; margin-left:26px; margin-bottom:10px;}
+
+
+
+.pagination_left{
+border:0px solid #FF0000; width:70%;
+height:auto;
+float:left;
+}
+
+
+
+
+
+.pagination_right{
+width:30%;
+border:0px solid red;
+float:right;
+font-size:12px;
+margin-top:-3px;
+text-align:right;
+}
+
+.btn {
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+.btn {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F5F5F5;
+    background-image: -moz-linear-gradient(center top , #FFFFFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: #E6E6E6 #E6E6E6 #B3B3B3;
+    border-image: none;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 0;
+    padding: 4px 10px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+.btn a {
+    color: #1F92FF;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 0 0 0 transparent;
+}
+.btn a {
+    color: #0088CC;
+    text-decoration: none;
+}
+.paginate {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+a.paginate {
+	border: 1px solid #ccc;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #000000;
+	border-radius:3px;
+	margin-left:2px;
+}
+
+
+a.paginate:hover {
+/*	background:#333;*/
+	border: 1px solid #000000;
+	/*color: #FFF;*/
+	border-radius:3px;
+	
+}
+
+a.current {
+	border: 1px solid #512e65;
+	border-radius:3px;
+	font-size: 12px;
+	padding: 5px 13px;
+	cursor: default;
+	/*background:#000080;*/
+	background:#512e65;
+	
+	color: #FFF;
+	text-decoration: none;
+}
+
+span.inactive {
+	border: 1px solid #999;
+	font-size: 12px;
+	padding: 2px 6px 2px 6px;
+	color: #999;
+	cursor: default;
+	border-radius:3px;
+}
+#preview{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+	}
+	

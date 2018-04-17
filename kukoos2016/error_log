@@ -1,0 +1,44 @@
+[24-Dec-2015 09:46:33 Etc/GMT] PHP Notice:  Undefined index: subcategory in /home/mapteki1/public_html/clients/coachreps/admin/editcategory.php on line 29
+[24-Dec-2015 09:46:52 Etc/GMT] PHP Notice:  Undefined index: subcategory in /home/mapteki1/public_html/clients/coachreps/admin/editcategory.php on line 29
+[24-Dec-2015 09:47:10 Etc/GMT] PHP Notice:  Undefined index: subcategory in /home/mapteki1/public_html/clients/coachreps/admin/editcategory.php on line 29
+[24-Dec-2015 09:48:13 Etc/GMT] PHP Notice:  Undefined index: subcategory in /home/mapteki1/public_html/clients/coachreps/admin/editcategory.php on line 29
+[24-Dec-2015 09:52:39 Etc/GMT] PHP Notice:  Undefined index: subcategory in /home/mapteki1/public_html/clients/coachreps/admin/editcategory.php on line 29
+[29-Dec-2015 09:03:49 Etc/GMT] PHP Notice:  Undefined index: subcategory in /home/mapteki1/public_html/clients/coachreps/admin/editcategory.php on line 29
+[30-Dec-2015 08:30:51 Etc/GMT] PHP Notice:  Undefined index: username in /home/mapteki1/public_html/clients/coachreps/admin/ajax-login.php on line 15
+[30-Dec-2015 08:30:51 Etc/GMT] PHP Notice:  Undefined index: password in /home/mapteki1/public_html/clients/coachreps/admin/ajax-login.php on line 17
+[23-Mar-2016 13:18:34 Etc/GMT] PHP Warning:  move_uploaded_file(uploads/forums/1458739114category1.jpg): failed to open stream: No such file or directory in /home/livemysport/public_html/test/admin/forum_edit.php on line 45
+[23-Mar-2016 13:18:34 Etc/GMT] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpXqFWc1' to 'uploads/forums/1458739114category1.jpg' in /home/livemysport/public_html/test/admin/forum_edit.php on line 45
+[23-Mar-2016 13:19:04 Etc/GMT] PHP Warning:  move_uploaded_file(uploads/forums/1458739144category1.jpg): failed to open stream: No such file or directory in /home/livemysport/public_html/test/admin/forum_edit.php on line 45
+[23-Mar-2016 13:19:04 Etc/GMT] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phptE5qwn' to 'uploads/forums/1458739144category1.jpg' in /home/livemysport/public_html/test/admin/forum_edit.php on line 45
+[23-Mar-2016 13:19:38 Etc/GMT] PHP Warning:  move_uploaded_file(uploads/forums/1458739178category1.jpg): failed to open stream: No such file or directory in /home/livemysport/public_html/test/admin/forum_edit.php on line 45
+[23-Mar-2016 13:19:38 Etc/GMT] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpmS5Bnb' to 'uploads/forums/1458739178category1.jpg' in /home/livemysport/public_html/test/admin/forum_edit.php on line 45
+[29-Mar-2016 10:40:58 Etc/GMT] PHP Notice:  Undefined index: subcategory in /home/livemysport/public_html/test/admin/editcategory.php on line 29
+[29-Mar-2016 10:42:26 Etc/GMT] PHP Notice:  Undefined index: subcategory in /home/livemysport/public_html/test/admin/editcategory.php on line 29
+[29-Mar-2016 10:42:43 Etc/GMT] PHP Notice:  Undefined index: subcategory in /home/livemysport/public_html/test/admin/editcategory.php on line 29
+[29-Mar-2016 10:43:07 Etc/GMT] PHP Notice:  Undefined index: subcategory in /home/livemysport/public_html/test/admin/editcategory.php on line 29
+[29-Mar-2016 10:43:24 Etc/GMT] PHP Notice:  Undefined index: subcategory in /home/livemysport/public_html/test/admin/editcategory.php on line 29
+[29-Mar-2016 10:43:57 Etc/GMT] PHP Notice:  Undefined index: subcategory in /home/livemysport/public_html/test/admin/editcategory.php on line 29
+[29-Mar-2016 10:44:11 Etc/GMT] PHP Notice:  Undefined index: subcategory in /home/livemysport/public_html/test/admin/editcategory.php on line 29
+[29-Mar-2016 10:45:14 Etc/GMT] PHP Notice:  Undefined index: subcategory in /home/livemysport/public_html/test/admin/editcategory.php on line 29
+[29-Mar-2016 10:45:27 Etc/GMT] PHP Notice:  Undefined index: subcategory in /home/livemysport/public_html/test/admin/editcategory.php on line 29
+[29-Mar-2016 10:45:58 Etc/GMT] PHP Notice:  Undefined index: subcategory in /home/livemysport/public_html/test/admin/editcategory.php on line 29
+[29-Mar-2016 10:46:12 Etc/GMT] PHP Notice:  Undefined index: subcategory in /home/livemysport/public_html/test/admin/editcategory.php on line 29
+[29-Mar-2016 10:46:27 Etc/GMT] PHP Notice:  Undefined index: subcategory in /home/livemysport/public_html/test/admin/editcategory.php on line 29
+[29-Mar-2016 10:46:42 Etc/GMT] PHP Notice:  Undefined index: subcategory in /home/livemysport/public_html/test/admin/editcategory.php on line 29
+[29-Mar-2016 10:46:59 Etc/GMT] PHP Notice:  Undefined index: subcategory in /home/livemysport/public_html/test/admin/editcategory.php on line 29
+[29-Mar-2016 10:47:14 Etc/GMT] PHP Notice:  Undefined index: subcategory in /home/livemysport/public_html/test/admin/editcategory.php on line 29
+[06-May-2016 14:07:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/livemysport/public_html/test/admin/select_subcategory_ajax.php on line 11
+[06-May-2016 14:09:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/livemysport/public_html/test/admin/select_subcategory_ajax.php on line 11
+[06-May-2016 14:10:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/livemysport/public_html/test/admin/select_subcategory_ajax.php on line 11
+[07-May-2016 11:04:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/livemysport/public_html/test/admin/select_subcategory_ajax.php on line 11
+[03-Dec-2016 11:22:13 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/maptekin/invent.maptek.in/ku_koos/kukoos2016/editpages.php on line 30
+[03-Dec-2016 11:22:17 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/maptekin/invent.maptek.in/ku_koos/kukoos2016/editpages.php on line 30
+[03-Dec-2016 11:22:32 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/maptekin/invent.maptek.in/ku_koos/kukoos2016/editpages.php on line 30
+[03-Dec-2016 11:22:39 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/maptekin/invent.maptek.in/ku_koos/kukoos2016/editpages.php on line 30
+[03-Dec-2016 11:23:14 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/maptekin/invent.maptek.in/ku_koos/kukoos2016/editpages.php on line 30
+[03-Dec-2016 11:24:56 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/maptekin/invent.maptek.in/ku_koos/kukoos2016/editpages.php on line 42
+[03-Dec-2016 11:26:20 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/maptekin/invent.maptek.in/ku_koos/kukoos2016/editpages.php on line 42
+[03-Dec-2016 11:26:26 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/maptekin/invent.maptek.in/ku_koos/kukoos2016/editpages.php on line 42
+[03-Dec-2016 11:32:56 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/maptekin/invent.maptek.in/ku_koos/kukoos2016/editpages.php on line 30
+[03-Dec-2016 11:33:00 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/maptekin/invent.maptek.in/ku_koos/kukoos2016/editpages.php on line 30
+[22-Sep-2017 10:19:20 UTC] PHP Fatal error:  Unsupported operand types in /home/onkarpathre/public_html/kukoos2016/ajax-login.php on line 33
